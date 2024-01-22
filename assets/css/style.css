@@ -22,6 +22,10 @@ header {
   padding: 60px;
 }
 
+.container {
+  padding-top: 20px;
+}
+
 .description {
   white-space: pre-wrap;
 }
@@ -58,7 +62,7 @@ header {
   color: white;
 }
 
-.saveBtn {
+.saveBtn, .clearBtn{
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
@@ -72,8 +76,7 @@ header {
   transition: all 0.3s ease-in-out;
 }
 
-@media (max-width:400px){
-  .hour {
-    font-size: 0.5px;
-  }
+.clearBtn span:hover {
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
 }
