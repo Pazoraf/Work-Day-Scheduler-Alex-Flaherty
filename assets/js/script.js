@@ -33,6 +33,10 @@ $(document).ready(function() {
         })
     })
 
+    $(".clearBtn").on("click", function(){
+        $(".description").val("");
+        localStorage.clear();
+    })
 
     setInterval(timeDisplay, 1000)
     console.log("hello")
